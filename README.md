@@ -24,22 +24,18 @@ It's very very easy to use this category.Not only support tranditoinanl frame se
     view.right = 10;
 ```
 
----
-
 * Margin View Use: Just by ratio
 
 ```
 [view topRatio:10 FromView:self.view screenType:XL_UIScreenType_iPhone6];
 [view leftRatio:10 FromView:self.view screenType:XL_UIScreenType_iPhone5];
 ```
----
 
 * chain syntax: Just margin to superview
 
 ```
 view.xL_Layout.XL_X(20).XL_Y(30).XL_Width(100).XL_Height(300);
 ```
----
 
 * calculateLayout protocal
 
@@ -65,7 +61,7 @@ here there are:
 - (CGRect)convertRect:(CGRect)rect fromViewOrWindow:(nullable UIView *)view;
 ```
 
-Have Fun!
+## Just Have Fun!
 
 
 
