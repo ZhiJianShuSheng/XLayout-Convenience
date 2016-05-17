@@ -16,7 +16,7 @@ It's very very easy to use this category.Not only support tranditoinanl frame se
 
 * Base Use：convenient set frame
 
-```view.width = 10;
+>```view.width = 10;
     view.height = 10;
     view.x = 10;
     view.y = 10;
@@ -26,28 +26,28 @@ It's very very easy to use this category.Not only support tranditoinanl frame se
 
 * Margin View Use: Just by ratio
 
-```
+>```
 [view topRatio:10 FromView:self.view screenType:XL_UIScreenType_iPhone6];
 [view leftRatio:10 FromView:self.view screenType:XL_UIScreenType_iPhone5];
 ```
 
 * chain syntax: Just margin to superview
 
-```
+>```
 view.xL_Layout.XL_X(20).XL_Y(30).XL_Width(100).XL_Height(300);
 ```
 
 * calculateLayout protocal
 
-In general,We must layout our views aflter we create views. So I define required protocal to check this rule.In ``layoutSubview`` fucntion,we call this protocal.
+>In general,We must layout our views aflter we create views. So I define required protocal to check this rule.In ``layoutSubview`` fucntion,we call this protocal.
 
 * Other Common Method
 
-There are so much method we could use.Such as snap image ,remove all subviews,return viewcontroller...
+>There are so much method we could use.Such as snap image ,remove all subviews,return viewcontroller...
 
-here there are:
+>here there are:
 
-```
+>```
 @property (nullable, nonatomic, readonly) UIViewController *viewController;
 @property (nonatomic, readonly) CGFloat visibleAlpha;
 - (nullable UIImage *)snapshotImage;
